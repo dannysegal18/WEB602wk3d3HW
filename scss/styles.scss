@@ -1,0 +1,53 @@
+/* Variables */
+@import "colors.scss";
+@import "nav.scss";
+
+* {
+    background-color: $bodyBgColor;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nest Main */
+main {
+    width: 100%;
+    min-height:535px;
+    background-color: $mainBgColor;
+
+    section {
+        display: inline-block;
+        height: 500px;
+    }
+
+    #intro-text {
+        background-color: $introTextBgColor;
+        padding-top: 130px;
+        width: 40%;
+
+        span {
+
+        }
+
+        h3 {
+            
+        }
+
+        p {
+
+        }
+
+        .submit-button {
+
+        }
+    }
+
+    #intro-image {
+        img {
+
+        }
+    }
+}
+
+// Mixin or Extend for button
+@mixin submitBtn {
+    
+}

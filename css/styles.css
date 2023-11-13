@@ -1,0 +1,13 @@
+/* Variables */
+/* Nest Nav */
+* {
+    background-color: rgb(218, 170, 14);
+  }
+  
+  /* Nest Main */
+  main {
+    width: 1350px;
+    min-height: 535px;
+  }
+  
+  /*# sourceMappingURL=styles.css.map */
